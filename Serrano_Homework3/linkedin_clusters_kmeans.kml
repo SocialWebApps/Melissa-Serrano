@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <Style id="centroid">
+      <IconStyle>
+        <color>ff0000ff</color>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <Point>
+        <coordinates>-81.3773880005,28.538230896</coordinates>
+      </Point>
+      <ExtendedData>
+        <Data name="contacts">
+          <value>Gustavo Mónaco.</value>
+        </Data>
+        <Data name="coords">
+          <value>-81.3773880005,28.538230896</value>
+        </Data>
+        <Data name="label">
+          <value>Orlando, Florida Area</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-87.9068374634,43.041809082</coordinates>
+      </Point>
+      <ExtendedData>
+        <Data name="contacts">
+          <value>Kevin Medina.</value>
+        </Data>
+        <Data name="coords">
+          <value>-87.9068374634,43.041809082</value>
+        </Data>
+        <Data name="label">
+          <value>Greater Milwaukee Area</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-80.794824,35.254282</coordinates>
+      </Point>
+      <ExtendedData>
+        <Data name="contacts">
+          <value>Mia Falzarano.</value>
+        </Data>
+        <Data name="coords">
+          <value>-80.794824,35.254282</value>
+        </Data>
+        <Data name="label">
+          <value>Greensboro/Winston-Salem, North Carolina Area</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-80.1362762451,26.089969635</coordinates>
+      </Point>
+      <ExtendedData>
+        <Data name="contacts">
+          <value>Keith Haizlett.
+Alton Gaines.
+Juanita Mainster.
+Jebin Shakya.
+David Vizcaino.
+Jimmy Mauri.
+Santiago Aguerrevere.</value>
+        </Data>
+        <Data name="coords">
+          <value>-80.1362762451,26.089969635</value>
+        </Data>
+        <Data name="label">
+          <value>Miami/Fort Lauderdale Area</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-121.343788147,38.4490699768</coordinates>
+      </Point>
+      <ExtendedData>
+        <Data name="contacts">
+          <value>Veronica M.</value>
+        </Data>
+        <Data name="coords">
+          <value>-121.343788147,38.4490699768</value>
+        </Data>
+        <Data name="label">
+          <value>Sacramento, California Area</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-98.9573364258,39.4432563782</coordinates>
+      </Point>
+      <ExtendedData>
+        <Data name="contacts">
+          <value>Aunt Barbara Leonard.</value>
+        </Data>
+        <Data name="coords">
+          <value>-98.9573364258,39.4432563782</value>
+        </Data>
+        <Data name="label">
+          <value>United States</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-73.831703186,40.7820014954</coordinates>
+      </Point>
+      <ExtendedData>
+        <Data name="contacts">
+          <value>Lauren Paino.</value>
+        </Data>
+        <Data name="coords">
+          <value>-73.831703186,40.7820014954</value>
+        </Data>
+        <Data name="label">
+          <value>Greater New York City Area</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-77.9459915161,34.2349700928</coordinates>
+      </Point>
+      <ExtendedData>
+        <Data name="contacts">
+          <value>Crissy Olivas.</value>
+        </Data>
+        <Data name="coords">
+          <value>-77.9459915161,34.2349700928</value>
+        </Data>
+        <Data name="label">
+          <value>Wilmington, North Carolina Area</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-73.7552108765,42.651550293</coordinates>
+      </Point>
+      <ExtendedData>
+        <Data name="contacts">
+          <value>cbaechle fau.</value>
+        </Data>
+        <Data name="coords">
+          <value>-73.7552108765,42.651550293</value>
+        </Data>
+        <Data name="label">
+          <value>Albany, New York Area</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>-80.0531921387,26.714389801</coordinates>
+      </Point>
+      <ExtendedData>
+        <Data name="contacts">
+          <value>Jim Devine.
+Jo-Ann Calcagno.
+Busra Demirci.
+Marlow Charite.
+Thomas Sonderman.
+Maria Bojko.
+Debra Lewis.</value>
+        </Data>
+        <Data name="coords">
+          <value>-80.0531921387,26.714389801</value>
+        </Data>
+        <Data name="label">
+          <value>West Palm Beach, Florida Area</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>%s,%s</coordinates>
+      </Point>
+      <ExtendedData>
+        <Data name="coords">
+          <value>%s,%s</value>
+        </Data>
+        <Data name="label">
+          <value>CENTROID</value>
+        </Data>
+      </ExtendedData>
+      <styleUrl>#centroid</styleUrl>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>%s,%s</coordinates>
+      </Point>
+      <ExtendedData>
+        <Data name="coords">
+          <value>%s,%s</value>
+        </Data>
+        <Data name="label">
+          <value>CENTROID</value>
+        </Data>
+      </ExtendedData>
+      <styleUrl>#centroid</styleUrl>
+    </Placemark>
+    <Placemark>
+      <Point>
+        <coordinates>%s,%s</coordinates>
+      </Point>
+      <ExtendedData>
+        <Data name="coords">
+          <value>%s,%s</value>
+        </Data>
+        <Data name="label">
+          <value>CENTROID</value>
+        </Data>
+      </ExtendedData>
+      <styleUrl>#centroid</styleUrl>
+    </Placemark>
+  </Document>
+</kml>
