@@ -7,3 +7,5 @@ Also got Example 13 to work, created a KML file and used it as an overlay on Goo
 UPDATE:
 If you are having issues running this code, it may be because of your version of iPython. If this is the case, the github url should be appended to nbviewer.ipython.org/urls
 ie - http://nbviewer.ipython.org/urls/github/SocialWebApps/Melissa-Serrano/blob/master/Serrano_Homework3/Homework3.ipynb
+
+Resolves to:  http://nbviewer.ipython.org/github/SocialWebApps/Melissa-Serrano/blob/master/Serrano_Homework3/Homework3.ipynb
