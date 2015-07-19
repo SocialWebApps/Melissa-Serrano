@@ -1,0 +1,27 @@
+
+<html>
+<head>
+  <script type='text/javascript' src='https://www.google.com/jsapi'></script>
+  <script type='text/javascript'>
+   google.load('visualization', '1', {'packages': ['geomap']});
+   google.setOnLoadCallback(drawMap);
+    function drawMap() {
+      var data = google.visualization.arrayToDataTable([
+        ['State', 'Percentage'],
+['US-WA', 0.103097],['US-DE', 0.102664],['US-DC', 0.091051],['US-WI', 0.117026],['US-WV', 0.081574],['US-HI', 0.043478],['US-FL', 0.099116],['US-WY', 0.095588],['US-NH', 0.109895],['US-NJ', 0.091199],['US-NM', 0.093264],['US-TX', 0.071252],['US-LA', 0.062708],['US-NC', 0.098629],['US-ND', 0.104139],['US-NE', 0.106209],['US-TN', 0.097322],['US-NY', 0.089946],['US-PA', 0.104079],['US-CA', 0.077930],['US-NV', 0.082965],['US-VA', 0.080833],['US-CO', 0.137053],['US-AK', 0.069542],['US-AL', 0.077887],['US-AR', 0.075822],['US-VT', 0.153812],['US-IL', 0.101826],['US-GA', 0.079913],['US-IN', 0.095679],['US-IA', 0.095713],['US-OK', 0.074137],['US-AZ', 0.092624],['US-ID', 0.122008],['US-CT', 0.099666],['US-ME', 0.105793],['US-MD', 0.055476],['US-MA', 0.100636],['US-OH', 0.097893],['US-UT', 0.105649],['US-MO', 0.112469],['US-MN', 0.112446],['US-MI', 0.090365],['US-RI', 0.120907],['US-KS', 0.101402],['US-MT', 0.137268],['US-MS', 0.064298],['US-SC', 0.079393],['US-KY', 0.084416],['US-OR', 0.123330],['US-SD', 0.115270],      ]);
+      var options = {};
+      options['region'] = 'US'
+      options['dataMode'] = 'regions';
+	  colorAxis: {colors: ['#00853f', 'black', '#e31b23']};
+      var container = document.getElementById('map_canvas');
+      var geomap = new google.visualization.GeoMap(container);
+      geomap.draw(data, options);
+  };
+  </script>
+</head>
+
+<body>
+  <div id='map_canvas'></div>
+</body>
+
+</html>
